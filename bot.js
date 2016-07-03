@@ -45,9 +45,6 @@ controller.hears('hello','direct_message',function(bot,message) {
   bot.reply(message,'Hello!');
 });
 
-controller.hears('wilhelm','direct_message',function(bot,message) {
-  bot.reply(message,"'A kool hacker dawg who built simple poll, used by 1000's of companies (like nasa just sayin) worldwide'");
-});
 
 
 controller.hears('.*', 'direct_message,direct_mention,mention', function (bot, message) {
